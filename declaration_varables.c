@@ -4,12 +4,14 @@
 int main() {
     int age;
     float weight;
-    char gender;
+    char * gender;
 
     age = 23;
     weight = 1.75;
-    gender = 'M';
+    gender = "Male";
 
-    getch()
+    printf("%d %f %s", age, weight, gender);
+
+    getch();
     return 0;
 }
