@@ -33,3 +33,7 @@ Install all the dependencies
 ```sh
 sudo apt-get install build-essential
 ```
+
+```sh
+gcc hello.c -o hello
+```
